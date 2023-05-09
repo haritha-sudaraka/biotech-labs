@@ -1,0 +1,142 @@
+.biotech__servicecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 500px;
+    margin: 1rem 0;
+}
+
+.biotech__servicecard-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biotech__servicecard-icon img{
+    width: 66px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.biotech__servicecard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.biotech__servicecard-content h4{
+    font-family: var(--font-family);
+    font-weight: 650;
+    font-size: 23px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.biotech__servicecard-content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #878788;
+}
+
+@media screen and (max-width:1000px) {
+    .biotech__servicecard-icon img{
+        width: 57px;
+        height: auto;
+        margin-right: 1rem;
+    }
+
+    .biotech__servicecard-content h4{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .biotech__servicecard-content p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .biotech__servicecard{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .biotech__servicecard-content h4{
+        font-family: var(--font-family);
+        font-weight: 650;
+        font-size: 23px;
+        line-height: 30px;
+    
+        color: #000000;
+    }
+    
+    .biotech__servicecard-content p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    
+        color: #878788;
+    }
+
+    .biotech__servicecard-icon img{
+        width: 66px;
+        height: auto;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .biotech__servicecard-icon img{
+        width: 57px;
+        height: auto;
+        margin-right: 1rem;
+    }
+
+    .biotech__servicecard-content h4{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .biotech__servicecard-content p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .biotech__servicecard{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .biotech__servicecard-icon img{
+        width: 50px;
+        height: auto;
+        margin-right: 1rem;
+    }
+
+    .biotech__servicecard-content h4{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .biotech__servicecard-content p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .biotech__servicecard{
+        width: 300px;
+    }
+}

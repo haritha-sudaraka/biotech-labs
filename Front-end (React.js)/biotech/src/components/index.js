@@ -1,0 +1,7 @@
+export {default as AboutTag} from './about_tag/AboutTag'
+export {default as Article} from './article/Article'
+export {default as Comment} from './comment/Comment'
+export {default as Navbar} from './navbar/Navbar'
+export {default as ServiceCard} from './service_card/ServiceCard'
+export {default as Carousel} from './carousel/Carousel'
+export {default as AppointmentForm} from './appointment_form/AppointmentForm'

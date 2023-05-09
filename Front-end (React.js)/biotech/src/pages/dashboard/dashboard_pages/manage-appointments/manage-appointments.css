@@ -1,0 +1,49 @@
+.biotech_dashboard-manage_appointments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.update_sect, .delete_sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_sect input, .delete_sect input{
+    background:transparent;
+    border: 1px solid var(--color-subtext);
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    transition: 0.5s;
+}
+
+.update_sect button, .delete_sect button{
+    background:var(--color-blue);
+    border: 1px solid var(--color-blue);
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.update_sect button:hover, .delete_sect button:hover{
+    background:#fff;
+    color: var(--color-blue);
+}
+
+@media screen and (max-width:930px){
+    .biotech_dashboard-manage_appointments{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}

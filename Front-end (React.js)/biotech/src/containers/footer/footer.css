@@ -1,0 +1,154 @@
+.biotech__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-footer);
+    padding-bottom: 0;
+}
+
+.biotech__footer-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biotech__footer-content_logosect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.biotech__footer-content_logosect>img{
+    width: 200px;
+    height: auto;
+    padding: 1rem 0;
+}
+
+.biotech__footer-content_logosect-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__footer-content_logosect-social img{
+    width: 35px;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.biotech__footer-content_linksect{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.biotech__footer-content_linksect-company,
+.biotech__footer-content_linksect-official,
+.biotech__footer-content_linksect-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.biotech__footer-content_linksect-company h5,
+.biotech__footer-content_linksect-official h5,
+.biotech__footer-content_linksect-contact h5{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16.49px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 0.5rem 2rem;
+}
+
+.biotech__footer-content_linksect-company p,
+.biotech__footer-content_linksect-official p,
+.biotech__footer-content_linksect-contact p{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 12.49px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 0.5rem 2rem;
+}
+
+.biotech__footer-content_linksect-company p,
+.biotech__footer-content_linksect-official p{
+    cursor: pointer;
+}
+
+.biotech__footer-content_linksect-company p:hover,
+.biotech__footer-content_linksect-official p:hover{
+    text-decoration: underline;
+}
+
+.biotech__footer-copy{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width:1070px){
+    .biotech__footer-content_logosect>img{
+        width: 150px;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .biotech__footer-content_logosect-social img{
+        width: 30px;
+        height: auto;
+        margin: 0.5rem;
+    }
+
+    .biotech__footer-content_linksect-company h5,
+    .biotech__footer-content_linksect-official h5,
+    .biotech__footer-content_linksect-contact h5{
+        font-size: 14.49px;
+        line-height: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+    .biotech__footer-content_linksect-company p,
+    .biotech__footer-content_linksect-official p,
+    .biotech__footer-content_linksect-contact p{
+        font-size: 12px;
+        line-height: 17px;
+        padding: 0.5rem 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width:930px){
+    .biotech__footer-content{
+        flex-direction: column;
+    }
+
+    .biotech__footer-content_linksect{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:550px){
+    .biotech__footer-content_linksect{
+        justify-content: flex-start;
+    }
+
+    .biotech__footer-content{
+        justify-content: center;
+        align-items: center;
+    }
+}

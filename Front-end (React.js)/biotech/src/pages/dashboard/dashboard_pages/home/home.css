@@ -1,0 +1,59 @@
+.biotech__dashboard-status_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.4);
+    padding: 1rem;
+}
+
+.biotech__dashboard-status_card-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.biotech__dashboard-status_card-description h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.biotech__dashboard-status_card-description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 1rem;
+}
+
+.biotech__dashboard_home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.biotech__dashboard_home>div{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.time_date_sect{
+    display: flex;
+    flex-direction: row;
+}
+
+.time_date_sect h2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}

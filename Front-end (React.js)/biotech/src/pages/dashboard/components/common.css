@@ -1,0 +1,16 @@
+.custom>button[type='button']{
+    color:#fff;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    transition: 0.2s;
+}
+  
+.custom>button[type='button']:hover{
+    background-color: #fff;
+    color:var(--color-blue);
+}
+
+.outlined-menu button{
+    border: none;
+}

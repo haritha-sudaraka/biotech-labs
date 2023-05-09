@@ -1,0 +1,164 @@
+.biotech__register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.biotech__register-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.biotech__register-logo img{
+    width: 200px;
+    height: auto;
+}
+
+.biotech__register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    padding: 5rem 0;
+    width: 60%;
+}
+
+.biotech__register-form h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    color: #000000;
+    padding-bottom: 1rem;
+}
+
+.biotech__register-form input{
+    border-radius: 5px;
+    width: 393px;
+    height: 40px;
+    border: 1px solid #C8C8C8;
+    outline: none;
+    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 1rem;
+    margin: 0.75rem;
+
+    color: var(--color-subtext);
+    transition: 0.4s;
+}
+
+.biotech__register-form input[type="checkbox"]{
+    width: 17px;
+}
+
+.biotech__register-form input:focus{
+    color: #000;
+    border: 1px solid var(--color-blue);
+}
+
+.biotech__register-form button{
+    background-color: var(--color-blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16.49px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 45%;
+    height: 46px;
+    border-radius: 5px;
+    margin:  1rem 0.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid var(--color-blue);
+}
+
+.biotech__register-form button:hover{
+    background-color: #FFFFFF;
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+}
+
+.biotech__register-form_showpw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14.49px;
+    line-height: 25px;
+    color: var(--color-subtext);
+}
+
+.biotech__register-form a{
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.biotech__register-form a:hover{
+    color: var(--color-blue);
+    
+}
+
+@media screen and (max-width:930px){
+    .biotech__register-form{
+        padding: 4rem 0;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:490px){
+    .biotech__register-form input{
+        width: 300px;
+    }
+
+    .biotech__register-form{
+        padding: 2rem 0;
+    }
+
+    .biotech__register-form h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .biotech__register-form button{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:490px){
+    .biotech__register-form input{
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .biotech__register-form{
+        padding: 1rem 0;
+    }
+
+    .biotech__register-form h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .biotech__register-form button{
+        margin: 1rem;
+        height: 40px;
+        font-weight: 450;
+        font-size: 14.49px;
+    }
+}

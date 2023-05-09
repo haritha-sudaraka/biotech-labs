@@ -1,0 +1,200 @@
+.biotech__appointment_form-textarea_half{
+    width: 900px;
+    height: 80px;
+}
+
+.biotech__appointment_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biotech__appointment_form-info_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.biotech__appointment_form-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__appointment_form-heading h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    padding: 2rem;
+}
+
+.biotech__appointment_form-buttonsect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.biotech__appointment_form-buttonsect_confirm{
+    background-color: var(--color-blue);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16.49px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    margin:  2rem 0.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.biotech__appointment_form-buttonsect_cancel{
+    background:transparent;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16.49px;
+    line-height: 25px;
+    color: var(--color-subtext);
+    border: 1px solid var(--color-subtext);
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    margin:  2rem 0.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.biotech__appointment_form-buttonsect_confirm:hover{
+    background-color: #FFFFFF;
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+}
+
+.biotech__appointment_form-buttonsect_cancel:hover{
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+}
+
+#errorText{
+    color: red;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.biotech__appointment_form-info_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.MuiBox-root{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1140px){
+    .MuiBox-root{
+        width: 800px;
+    }
+    .biotech__appointment_form-textarea_half{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:1030px){
+    .MuiBox-root{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .MuiBox-root{
+        width: 500px;
+    }
+
+    .biotech__appointment_form-textarea_half{
+        width: 600px;
+    }
+
+    .biotech__appointment_form-buttonsect_confirm,
+    .biotech__appointment_form-buttonsect_cancel{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:690px){
+    .biotech__appointment_form-textarea_half{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .MuiBox-root{
+        width: 450px;
+    }
+
+    .biotech__appointment_form-buttonsect_confirm,
+    .biotech__appointment_form-buttonsect_cancel{
+        height: 40px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .biotech__appointment_form-textarea_half{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .MuiBox-root{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .biotech__appointment_form-textarea_half{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .MuiBox-root{
+        width: 290px;
+    }
+
+    
+    .biotech__appointment_form-buttonsect_confirm,
+    .biotech__appointment_form-buttonsect_cancel{
+        width: 45%;
+    }
+
+    .biotech__appointment_form-textarea_half{
+        width: 300px;
+    }
+}

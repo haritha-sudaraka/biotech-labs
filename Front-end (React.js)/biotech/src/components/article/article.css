@@ -1,0 +1,106 @@
+.biotech__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    width: 363px;
+    height: 400px;
+    transition: 0.6s;
+    margin: 2rem 1rem;
+}
+
+.biotech__article:hover{
+    -webkit-box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.50);
+    box-shadow: 0px 4px 40px -4px rgba(0,0,0,0.50);
+}
+
+.biotech__article-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__article-image img{
+    border-radius: 10px;
+    width: 363px;
+    height: auto;
+}
+
+.biotech__article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.biotech__article-content h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding: 1rem;
+}
+
+.biotech__article-content_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biotech__article-content_info p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--color-subtext);
+    padding-right: 1rem;
+}
+
+.biotech__article-content_info p>a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 1rem;
+}
+
+.biotech__article-content_info p>a:hover{
+    color: var(--color-blue);
+}
+
+@media screen and (max-width:490px){
+    .biotech__article-content h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .biotech__article-content_info p{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    
+    .biotech__article-content_info p>a{
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .biotech__article{
+        width: 350px;
+        height: 360px;
+    }
+
+    .biotech__article-image img{
+        width: 350px;
+    }
+}

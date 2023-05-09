@@ -1,0 +1,7 @@
+export {default as AddReport} from './add-report/AddReport'
+export {default as AddTest} from './add-test/AddTest'
+export {default as Appointments} from './appointments/Appointments'
+export {default as ManageAppointments} from './manage-appointments/ManageAppointments'
+export {default as Reports} from './reports/Reports'
+export {default as Tests} from './tests/Tests'
+export {default as Home} from './home/Home'

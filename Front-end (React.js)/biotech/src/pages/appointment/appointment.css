@@ -1,0 +1,90 @@
+.biotech__appointment{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    background-image: url('../../assets/logo_clip.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-items: left;
+}
+
+
+
+.biotech__appointment-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__appointment-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.biotech__appointment-logo img{
+    width: 200px;
+    height: 70px;
+}
+
+.biotech__appointment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__appointment-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 55px;
+    color: var(--color-blue);
+    padding: 2rem;
+}
+
+.biotech__appointment-appointment_form{
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:900px){
+    .biotech__appointment{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .biotech__appointment{
+        padding: 0.5rem 1rem;
+    }
+
+    .biotech__appointment-heading h1{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: var(--color-blue);
+        padding: 2rem;
+    }
+}
+
+@media print{
+    .biotech__appointment-heading{
+        display: none;
+    }
+
+    .biotech__appointment{
+        background-image: none;
+        background: transparent;
+    }
+}

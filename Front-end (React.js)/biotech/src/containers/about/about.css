@@ -1,0 +1,119 @@
+.biotech__about{
+    display: flex;
+    flex-direction: column;
+}
+
+.biotech__about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__about-heading h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--color-blue);
+}
+
+.biotech__about-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.biotech__about-content_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.biotech__about-content_image img{
+    width: 100%;
+    height: auto;
+}
+
+.biotech__about-content_details{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.biotech__about-content_details h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: right;
+    color: var(--color-header);
+}
+
+.biotech__about-content_details p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: right;
+    color: var(--color-subtext);
+}
+
+.biotech__about-content_details_tags{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.biotech__about-content_details_tags_grpA{
+    display: flex;
+    flex-direction: row;
+}
+
+.biotech__about-content_details_tags_grpB{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:1100px) {
+    .biotech__about-content_details h1{
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .biotech__about-content{
+        flex-direction: column;
+    }
+
+    .biotech__about-content_image img{
+        width: 70%;
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .biotech__about-content_details>p{
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        padding: 1.5rem 0 0 0;
+    }
+}
+
+@media screen and (max-width:580px){
+    .biotech__about-content_details_tags_grpA{
+        flex-direction: column;
+    }
+    
+    .biotech__about-content_details_tags_grpB{
+        flex-direction: column;
+    }
+
+    .biotech__about-content_details h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
