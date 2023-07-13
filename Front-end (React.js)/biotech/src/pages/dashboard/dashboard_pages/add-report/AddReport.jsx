@@ -4,7 +4,7 @@ import './add-report.css'
 import axios from 'axios';
 
 const AddReport = () => {
-    const APP_KEY="ni4cwnn1fo3q5k1";
+    const APP_KEY="app key";
     const [url,setUrl] = useState("");
     const [refNumber,setRefNumber] = useState("");
 
